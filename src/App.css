@@ -162,7 +162,7 @@ li {
 }*/
 
 
-/*Mobile first approach*/
+/*Mobile styles*/
 @media only screen and (max-width: 450px) {
  
   h1.main-heading {
@@ -177,9 +177,13 @@ li {
     margin-bottom: 6px;
   }
 
+  .row.typeContent {
+    padding: 6% 4% 6% 4%;
+  }
+
   .btns {
     margin-left: 0;
-    width: 70%;
+    width: 100%;
   }
 
   ul {
