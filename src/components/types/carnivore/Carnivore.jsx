@@ -10,7 +10,7 @@ export default function Carnivore() {
         <div className='container mt-5'>
             <div className="row typeContent">
                 <h2 className="heading">Carnivores</h2>
-                <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione error voluptatum dolorum numquam mollitia doloribus quas, nam ipsum libero blanditiis voluptatem, possimus sit voluptatibus laudantium maxime nemo, hic cum dicta?</p>
+                <p className="text">A carnivore (a.k.a. meatatarian or meat-eater) is a person who predominantly eats red meat, which includes: pork, beef, veal and lamb. The word carnivore literally translates to “meat devourer.”</p>
                 <Breakfast />
                 <Lunch />
                 <Dinner />
