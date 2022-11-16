@@ -15,7 +15,7 @@ export default function Carnivore() {
                 <Lunch />
                 <Dinner />
                 <div className="btns">
-                    <Link to className="btn">Food cal</Link>
+                    <Link to className="btn">Diet Calender</Link>
                     <a href='' className="btn">Watch</a>
                 </div>
             </div>

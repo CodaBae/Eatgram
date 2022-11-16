@@ -4,7 +4,7 @@ export default function Dinner() {
     return (
         <div className='container'>
             <div className="row">
-                <h2 className="heading">Dinner</h2>
+                <h2 className="subheading">Dinner</h2>
                 <ul className="list">
                     <li className="text">Cereal and toast</li>
                     <li className="text">Cereal and toast</li>
