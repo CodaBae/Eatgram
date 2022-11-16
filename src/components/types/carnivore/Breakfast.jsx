@@ -11,26 +11,7 @@ export default function Breakfast() {
                     <li className="text">Cereal and toast</li>
                     <li className="text">Cereal and toast</li>
                     <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
+                    
                     
                 </ul>
             </div>
