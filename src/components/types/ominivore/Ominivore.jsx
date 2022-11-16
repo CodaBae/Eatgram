@@ -8,8 +8,7 @@ import { Link } from 'react-router-dom';
 export default function Ominivore() {
     return (
         <div className='container mt-5'>
-            <div className="row">
-                <Welcome />
+            <div className="row typeContent">
                 <h2 className="heading">Ominivores</h2>
                 <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione error voluptatum dolorum numquam mollitia doloribus quas, nam ipsum libero blanditiis voluptatem, possimus sit voluptatibus laudantium maxime nemo, hic cum dicta?</p>
                 <Breakfast />
