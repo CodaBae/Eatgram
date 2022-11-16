@@ -1,17 +1,16 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import './App.css';
-import Carnivore from "./components/types/carnivore/Ominivore";
+import Carnivore from "./components/types/carnivore/Carnivore";
 import Ominivore from "./components/types/ominivore/Ominivore";
-import Welcome from './components/Welcome';
-
+import Pollotarians from "./components/types/pollotarians/Pollotarians";
 function App() {
   return (
     <div className="app">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Welcome />} />
-          <Route path="/ominivore" element={<Ominivore />} />
+          <Route path="/" element={<Ominivore />} />
           <Route path="/carnivore" element={<Carnivore />} />
+          <Route path="/pollotarians" element={<Pollotarians />} />
 
         </Routes>
       </BrowserRouter>
