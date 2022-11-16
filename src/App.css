@@ -35,9 +35,10 @@ li {
 
 .nav .nav-item .nav-link {
   color: #fff;
-  background-color: #1a9258;
+  background-color: #249644;
   margin: 10px 10px 30px 0;
   text-transform: capitalize;
+  font-weight: 500;
 }
 
 .nav .nav-item .one {
@@ -134,7 +135,7 @@ ul {
 
 }
 
-.subheafing{
+.subheading{
   font-size: 1.5rem;
     color: white;
 }
