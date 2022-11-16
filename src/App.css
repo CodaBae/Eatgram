@@ -151,6 +151,6 @@ ul {
 }
 
 .active{
-  background: transparent;
-    border: 2px solid #249644;
+  background: transparent !important;
+  border: 2px solid #249644;
 }
