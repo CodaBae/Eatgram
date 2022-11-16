@@ -1,34 +1,47 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export default function TabGroup() {
+
+    let active = {
+        background: 'transparent',
+        border: "2px solid #249644"
+    }
     return (
         <div className='container-fluid'>
             <div className='row'>
-                <ul class="nav">
-                    <li class="nav-item">
-                        <Link to="/" className='nav-link one'> Ominivore</Link>
+                <ul className="nav">
+                    <li className="nav-item">
+                        <NavLink to="/" 
+                            className='nav-link one'> Ominivore</NavLink>
                     </li>
-                    <li class="nav-item">
-                        <Link to="/carnivore" className='nav-link'> Carnivore</Link>
+                    <li className="nav-item">
+                        <NavLink to="/carnivore" 
+                            className='nav-link'> Carnivore</NavLink>
                     </li>
-                    <li class="nav-item">
-                        <Link to="/pollotarians" className='nav-link'> pollotarians</Link>
+                    <li className="nav-item">
+                        <NavLink to="/pollotarians" 
+                            className='nav-link'> pollotarians</NavLink>
                     </li>
-    
-                    <li class="nav-item">
-                        <Link to="/vegetarians" className='nav-link'> Vegetarians</Link>
+
+                    <li className="nav-item">
+                        <NavLink to="/vegetarians" 
+                            className='nav-link'> Vegetarians</NavLink>
                     </li>
-                    <li class="nav-item">
-                        <Link to="/pescetarians" className='nav-link '> Pescetarians</Link>
+                    <li className="nav-item">
+                        <NavLink to="/pescetarians" 
+                            className='nav-link '> Pescetarians</NavLink>
                     </li>
-                    <li class="nav-item">
-                        <Link to="/vegans" className='nav-link'> Vegans</Link>
+                    <li className="nav-item">
+                        <NavLink to="/vegans" 
+                            className='nav-link'> Vegans</NavLink>
                     </li>
-                    <li class="nav-item">
-                        <Link to="/kosher" className='nav-link'> Kosher</Link>
+                    <li className="nav-item">
+                        <NavLink to="/kosher" 
+                            className='nav-link'> Kosher</NavLink>
                     </li>
-                    <li class="nav-item">
-                        <Link to="/halal" className='nav-link'> Halal</Link>
+                    <li className="nav-item">
+                        <NavLink to="/halal" 
+                            className='nav-link'> Halal</NavLink>
                     </li>
                 </ul>
             </div>
