@@ -1,6 +1,10 @@
 body {
-  background-color: black;
+  background-color: #191a1c;
   overflow-x: none;
+}
+
+.main-heading {
+  text-align: center;
 }
 
 .heading {
@@ -15,9 +19,15 @@ li {
   list-style: none;
 }
 
+.box {
+  border: 1px solid #1a9258;
+  padding: 20px 10px;
+  margin: 20px 0;
+}
+
 .nav .nav-item .nav-link {
   color: #fff;
-  background-color: #12623B;
+  background-color: #1a9258;
   margin: 10px 10px 30px 0;
   text-transform: capitalize;
 }
@@ -34,7 +44,7 @@ li {
 
 .btns .btn {
   color: #fff;
-  background-color: #12623B;
+  background-color: #1a9258;
   margin-right: 20px;
 }
 
@@ -45,7 +55,7 @@ ul {
 }
 
 .list {
-  width: 50%;
+  width: 60%;
 }
 
 @media (max-width:768px) {
