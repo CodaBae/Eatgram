@@ -10,6 +10,14 @@ import Welcome from "./components/Welcome";
 import Vegan from "./components/types/vegan/Vegan";
 import Kosher from "./components/types/kosher/Kosher";
 import Halal from "./components/halal/Halal";
+
+import ReactDOM from 'react-dom'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faMeat, faChicken } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, faMeat, faChicken)
+
 function App() {
   return (
     <div className="app">
