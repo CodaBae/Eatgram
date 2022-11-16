@@ -128,7 +128,10 @@ li {
   border: 2px solid #249644;
 }
 
+
+
 @media (max-width:768px) {
+ 
   .list {
     width: 100%;
   }
@@ -143,7 +146,37 @@ li {
   }
 }
 
-@media (max-width:450px) {
+/*@media (max-width:450px) {
+  
+  .btns {
+    margin-left: 0;
+    width: 70%;
+  }
+
+  ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+
+}*/
+
+
+/*Mobile first approach*/
+@media only screen and (max-width: 450px) {
+ 
+  h1.main-heading {
+    font-size: 2.5rem;
+  }
+  .about {
+    padding: 1% 7%;
+    font-size: 1.25rem;
+  }
+
+  .nav .nav-item .nav-link {
+    margin-bottom: 6px;
+  }
+
   .btns {
     margin-left: 0;
     width: 70%;
