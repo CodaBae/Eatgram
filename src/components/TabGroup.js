@@ -11,36 +11,36 @@ export default function TabGroup() {
             <div className='row'>
                 <ul className="nav">
                     <li className="nav-item">
-                        <NavLink to="/" 
+                        <NavLink to="/"
                             className='nav-link one'> Ominivore</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/carnivore" 
+                        <NavLink to="/carnivore"
                             className='nav-link'> Carnivore</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/pollotarians" 
+                        <NavLink to="/pollotarians"
                             className='nav-link'> pollotarians</NavLink>
                     </li>
 
                     <li className="nav-item">
-                        <NavLink to="/vegetarians" 
+                        <NavLink to="/vegetarians"
                             className='nav-link'> Vegetarians</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/pescetarians" 
+                        <NavLink to="/pescetarians"
                             className='nav-link '> Pescetarians</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/vegans" 
+                        <NavLink to="/vegan"
                             className='nav-link'> Vegans</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/kosher" 
+                        <NavLink to="/kosher"
                             className='nav-link'> Kosher</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/halal" 
+                        <NavLink to="/halal"
                             className='nav-link'> Halal</NavLink>
                     </li>
                 </ul>

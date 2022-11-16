@@ -6,13 +6,11 @@ export default function Breakfast() {
             <div className="row">
                 <h2 className="subheading">Breakfast</h2>
                 <ul className="list">
-                    <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
-                    <li className="text">Cereal and toast</li>
-                    
-                    
+                    <li className="text">Cheesy Carnivore Omelets</li>
+                    <li className="text"> Carnivore Waffles</li>
+                    <li className="text">Meatballs</li>
+
+
                 </ul>
             </div>
         </div>

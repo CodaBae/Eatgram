@@ -4,12 +4,12 @@ import Dinner from './Dinner'
 import Lunch from './Lunch'
 import { Link } from 'react-router-dom';
 
-export default function Pollotarians() {
+export default function Vegan() {
     return (
         <div className='container mt-5'>
             <div className="row typeContent">
-                <h2 className="heading">Pollotarians</h2>
-                <p className="text">A pollotarian is a person who primarily eats poultry instead of red meat. The prefix “pollo” is the Spanish word for “chicken.” However, pollotarians eat any type of bird including: chicken, turkey, duck, quail or hen.</p>
+                <h2 className="heading">Vegan</h2>
+                <p className="text">A vegan is a person who does not eat any animal products or by-products and strictly adheres to a plant-based diet. This is commonly due to ethical or environmental reasons.</p>
                 <Breakfast />
                 <Lunch />
                 <Dinner />

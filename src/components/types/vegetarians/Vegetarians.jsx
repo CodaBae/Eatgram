@@ -2,7 +2,6 @@ import React from 'react'
 import Breakfast from './Breakfast'
 import Dinner from './Dinner'
 import Lunch from './Lunch'
-import Welcome from '../../Welcome';
 import { Link } from 'react-router-dom';
 
 export default function Vegetarians() {

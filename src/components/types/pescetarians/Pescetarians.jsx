@@ -2,17 +2,14 @@ import React from 'react'
 import Breakfast from './Breakfast'
 import Dinner from './Dinner'
 import Lunch from './Lunch'
-import Welcome from './../../Welcome';
 import { Link } from 'react-router-dom';
 
 export default function Pescetarians() {
     return (
         <div className='container mt-5'>
             <div className="row typeContent">
-                <h2 className="heading">Ominivores</h2>
-                <p className="text">An omnivore is a person who eats all types of food.  The word omnivore literally translates to “all devour.” 
-
-These eaters do not discriminate against any individual food group and will eat pretty much anything that is served to them.</p>
+                <h2 className="heading">Pescetarians</h2>
+                <p className="text">A pescetarian is a person who primarily eats fish and seafood, as well as vegetables and other non-animal meat foods. “Pesce” means “fish” in Italian and “pesca” means “fishing” in Catalan and Spanish.</p>
                 <Breakfast />
                 <Lunch />
                 <Dinner />
@@ -24,3 +21,4 @@ These eaters do not discriminate against any individual food group and will eat 
         </div>
     )
 }
+

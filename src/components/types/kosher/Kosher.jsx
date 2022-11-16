@@ -1,15 +1,15 @@
 import React from 'react'
 import Breakfast from './Breakfast'
 import Dinner from './Dinner'
-import Lunch from './Lunch'
+import Lunch from './Lunch';
 import { Link } from 'react-router-dom';
 
-export default function Pollotarians() {
+export default function Kosher() {
     return (
         <div className='container mt-5'>
             <div className="row typeContent">
-                <h2 className="heading">Pollotarians</h2>
-                <p className="text">A pollotarian is a person who primarily eats poultry instead of red meat. The prefix “pollo” is the Spanish word for “chicken.” However, pollotarians eat any type of bird including: chicken, turkey, duck, quail or hen.</p>
+                <h2 className="heading">Kosher</h2>
+                <p className="text">People who eat Kosher follow a strict set of Jewish dietary laws. The word “Kosher” means pure or fit for consumption.</p>
                 <Breakfast />
                 <Lunch />
                 <Dinner />

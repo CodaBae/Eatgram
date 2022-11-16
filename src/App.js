@@ -7,22 +7,24 @@ import Vegetarians from "./components/types/vegetarians/Vegetarians";
 import Pescetarians from "./components/types/pescetarians/Pescetarians";
 
 import Welcome from "./components/Welcome";
+import Vegan from "./components/types/vegan/Vegan";
+import Kosher from "./components/types/kosher/Kosher";
+import Halal from "./components/halal/Halal";
 function App() {
   return (
     <div className="app">
 
       <BrowserRouter>
-      <Welcome />
-
+        <Welcome />
         <Routes>
           <Route path="/" element={<Ominivore />} />
           <Route path="/carnivore" element={<Carnivore />} />
           <Route path="/pollotarians" element={<Pollotarians />} />
           <Route path="/vegetarians" element={<Vegetarians />} />
           <Route path="/pescetarians" element={<Pescetarians />} />
-
-
-
+          <Route path="/vegan" element={<Vegan />} />
+          <Route path="/kosher" element={<Kosher />} />
+          <Route path="/halal" element={<Halal />} />
         </Routes>
       </BrowserRouter>
     </div >
