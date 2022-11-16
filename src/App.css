@@ -21,6 +21,7 @@
 
 .text {
   color: #FFFFF3;
+  white-space: 'no-wrap';
 }
 
 li {
@@ -64,9 +65,11 @@ ul {
 }
 
 .list {
-  width: 60%;
+  width: 100%;
+  /* height: 20vh; */
+  display: flex;
+  flex-wrap: wrap;
 }
-
 @media (max-width:768px) {
   .list {
     width: 100%;
@@ -138,4 +141,11 @@ ul {
 .subheading{
   font-size: 1.5rem;
     color: white;
+}
+
+.btns .btn {
+  color: #fff;
+  background-color: #249644;
+  margin-right: 20px;
+  font-weight: 500;
 }
