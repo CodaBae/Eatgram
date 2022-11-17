@@ -253,5 +253,5 @@ li {
 
 .watch div {
   width: 33.3% !important;
-  height: 40vh !important;
+  height: fit-content !important;
   padding: 1%;}
