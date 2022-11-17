@@ -4,7 +4,7 @@ export default function FileUpload() {
     return (
         <div className="container">
             <div className="row">
-                <div className="form-group">
+                <div className="form-group uploadDiv">
                     <button className='btn upload'>Upload Video</button>
 
                 </div>
