@@ -8,6 +8,7 @@ import Vegan from "./components/types/vegan/Vegan";
 import Kosher from "./components/types/kosher/Kosher";
 import Halal from "./components/types/halal/Halal";
 import FileUpload from "./components/FileUpload";
+import DietCalendar from "./components/calendar/DietCalendar";
 
 import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -31,6 +32,8 @@ function App() {
           <Route path="/kosher" element={<Kosher />} />
           <Route path="/halal" element={<Halal />} />
           <Route path="/watch" element={<FileUpload />} />
+          <Route path="/calender" element={<DietCalendar />} />
+
         </Routes>
       </BrowserRouter>
     </div >

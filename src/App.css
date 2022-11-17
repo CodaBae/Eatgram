@@ -158,7 +158,10 @@ li {
 .back {
   color: #fff;
   border: 2px solid #1a9258;
+}
 
+.back:hover {
+  color: #fff;
 }
 
 @media (max-width:768px) {
@@ -176,21 +179,6 @@ li {
     margin-left: 60%;
   }
 }
-
-/*@media (max-width:450px) {
-  
-  .btns {
-    margin-left: 0;
-    width: 70%;
-  }
-
-  ul {
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-  }
-
-}*/
 
 
 /*Mobile styles added*/
@@ -221,7 +209,6 @@ li {
   }
 
   ul.nav {
-
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
