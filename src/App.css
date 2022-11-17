@@ -173,21 +173,6 @@ li {
   }
 }
 
-/*@media (max-width:450px) {
-  
-  .btns {
-    margin-left: 0;
-    width: 70%;
-  }
-
-  ul {
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-  }
-
-}*/
-
 
 /*Mobile styles added*/
 @media only screen and (max-width: 450px) {
@@ -217,7 +202,6 @@ li {
   }
 
   ul.nav {
-
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
