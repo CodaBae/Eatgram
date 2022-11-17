@@ -16,7 +16,7 @@ export default function Vegetarians() {
                 <Lunch />
                 <Dinner />
                 <div className="btns">
-                    <Link to='calender' className="btn">Diet Calender</Link>
+                    <Link to='/calender' className="btn">Diet Calender</Link>
                     <Link to="/watch" className="btn">Watch</Link>
                 </div>
             </div>
