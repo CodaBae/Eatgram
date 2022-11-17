@@ -125,7 +125,6 @@ li {
 .upload {
   color: #fff;
   background-color: #249644;
-  margin-right: 20px;
   font-weight: 500;
 }
 
@@ -234,7 +233,6 @@ li {
 .uploadDiv {
   display: flex;
   justify-content: end;
-  margin-left: 1.5%;
   margin-top: 1%;
 }
 
