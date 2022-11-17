@@ -181,15 +181,18 @@ li {
     padding: 6% 4% 6% 4%;
   }
 
+
   .btns {
     margin-left: 0;
     width: 100%;
+    white-space: nowrap;
   }
 
-  ul {
+  ul.nav {
+    
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
   }
-
+  
 }
