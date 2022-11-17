@@ -10,6 +10,7 @@ export default function DietCalendar() {
   return (
     <div className="DietCalendar-container">
       <table>
+      <button className='btn back' onClick={() => navigate(-1)}><i className="fa fa-arrow-left" aria-hidden="true"></i> {""} Back to Home</button>
         <tr>
           <th></th>
           <th>Breakfast</th>
