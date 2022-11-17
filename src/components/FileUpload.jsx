@@ -44,7 +44,7 @@ export default function FileUpload() {
                             />
                             <ReactPlayer
                                 url={
-                                    "https://res.cloudinary.com/code-idea/video/upload/v1668707698/3_CARNIVORE_DIET_Snack_Ideas_d8yupk.mp4"
+                                    "https://res.cloudinary.com/code-idea/video/upload/v1668707704/Mexican_Inspired_Rice_and_Beans_Recipe_Healthy_One_Pot_Black_Bean_Vegan_Food_Super_Easy_lxvoxp.mp4"
                                 }
                                 playing={true}
                                 controls={true}
