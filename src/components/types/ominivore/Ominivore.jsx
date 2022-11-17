@@ -10,7 +10,7 @@ export default function Ominivore() {
         <div className='container'>
             <Welcome />
             <div className="row typeContent">
-                <h2 className="heading">Ominivores</h2>
+                <h2 className="heading">Omnivores</h2>
                 <p className="text">An omnivore is a person who eats all types of food.  The word omnivore literally translates to “all devour.” These eaters do not discriminate against any individual food group and will eat pretty much anything that is served to them.</p>
                 <Breakfast />
                 <Lunch />
