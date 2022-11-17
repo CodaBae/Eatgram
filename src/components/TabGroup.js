@@ -20,20 +20,20 @@ export default function TabGroup() {
                     </li>
                     <li className="nav-item">
                         <NavLink to="/pollotarians"
-                            className='nav-link'> pollotarians</NavLink>
+                            className='nav-link'>Pollotarian</NavLink>
                     </li>
 
                     <li className="nav-item">
                         <NavLink to="/vegetarians"
-                            className='nav-link'> Vegetarians</NavLink>
+                            className='nav-link'> Vegetarian</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink to="/pescetarians"
-                            className='nav-link '> Pescetarians</NavLink>
+                            className='nav-link '> Pescetarian</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink to="/vegan"
-                            className='nav-link'> Vegans</NavLink>
+                            className='nav-link'> Vegan</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink to="/kosher"
