@@ -77,7 +77,7 @@ export default function FileUpload() {
                             />
                             <ReactPlayer
                                 url={
-                                    "https://res.cloudinary.com/dbcydvtno/video/upload/v1668708958/STRONGEST_BELLY_FAT_BURNER_DRINK_LOSE_15KG___30LBS_IN_2_WEEKS_trdbva.mp4"
+                                    "https://res.cloudinary.com/mozy/video/upload/v1668717831/10_Minutes_Recipe_-_Quick_Easy_Breakfast_Recipe_rxjwe8.mp4"
                                 }
                                 playing={true}
                                 controls={true}
@@ -99,7 +99,7 @@ export default function FileUpload() {
                             />
                             <ReactPlayer
                                 url={
-                                    "https://res.cloudinary.com/dbcydvtno/video/upload/v1668708958/STRONGEST_BELLY_FAT_BURNER_DRINK_LOSE_15KG___30LBS_IN_2_WEEKS_trdbva.mp4"
+                                    "https://res.cloudinary.com/mozy/video/upload/v1668717799/HOW_TO_MAKE_MEAT_PIE_lgfygc.mp4"
                                 }
                                 playing={true}
                                 controls={true}
@@ -110,7 +110,7 @@ export default function FileUpload() {
                             />
                             <ReactPlayer
                                 url={
-                                    "https://res.cloudinary.com/dbcydvtno/video/upload/v1668708958/STRONGEST_BELLY_FAT_BURNER_DRINK_LOSE_15KG___30LBS_IN_2_WEEKS_trdbva.mp4"
+                                    "https://res.cloudinary.com/code-idea/video/upload/v1668707704/Mexican_Inspired_Rice_and_Beans_Recipe_Healthy_One_Pot_Black_Bean_Vegan_Food_Super_Easy_lxvoxp.mp4"
                                 }
                                 playing={true}
                                 controls={true}
