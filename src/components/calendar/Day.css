@@ -1,0 +1,35 @@
+.Day-row-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #249644;
+  }
+  
+  .Day-number {
+    display: flex;
+    align-items: center;
+    color: #249644;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .Day-meals-container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #249644;
+  }
+  
+  .Day-meals-container p {
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+  .Day-meal {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+  }
+  

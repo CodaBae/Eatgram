@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Sono:wght@300;400;500;600;700&display=swap");
+
+body {
+  background-color: #000;
+  overflow-x: none;
+  font-family: "Sono", sans-serif;
+  color: #fff;
+}
+
+.DietCalendar-container {
+  padding-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.DietCalendar-banner {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 120px;
+  padding: 10px;
+  background-color: #249644;
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.DietCalendar-banner-item {
+  min-width: 120px;
+  margin: 0 16px;
+}
