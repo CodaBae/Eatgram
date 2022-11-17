@@ -1,22 +1,32 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export default function FileUpload() {
+    const cloudinaryRef = useRef();
+    const widgetRef = useRef();
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        cloudinaryRef.current = window.cloudinary
+        widgetRef.current = cloudinaryRef.current.createUploadWidget({
+            cloudName: "dinnmqcoz",
+            uploadPreset: "owfz0gel"
+        }, function (error, result) {
+            console.log(error);
+            console.log(result);
+        })
+    }, [])
+
     return (
         <div className="container">
             <div className="row">
-                <div className="form-group">
-                    <button className='btn upload'>Upload Video</button>
-
+                <div className="d-flex justify-content-between">
+                    <button className='btn back' onClick={() => navigate(-1)}><i className="fa fa-arrow-left" aria-hidden="true"></i> {""} Back to Home</button>
+                    <button className='btn upload' onClick={() => widgetRef.current.open()}>Upload Video</button>
                 </div>
                 <div className="typeContent">
                     <div className="watch">
-                        <div className="mb-3">
-                            <label htmlFor="fileInput" className='cloud'>
-                                <i className="fa fa-cloud"></i>
-                            </label>
-                            <h5 className='text text-center mt-3'>Click on icon to upload videos</h5>
-                            <input type="file" className="d-none" id="fileInput" />
-                        </div>
+
                     </div>
                 </div>
             </div>

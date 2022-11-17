@@ -133,14 +133,7 @@ li {
 .watch {
   min-height: 80vh;
   max-height: max-content;
-  margin-top: 13%;
-
-}
-
-.upload {
-  position: absolute;
-  right: 95px;
-  width: 20%;
+  margin-top: 5%;
 }
 
 .fa-cloud {
@@ -152,6 +145,12 @@ li {
   display: flex;
   justify-content: center;
   margin-top: 10px;
+}
+
+.back {
+  color: #fff;
+  border: 2px solid #1a9258;
+
 }
 
 @media (max-width:768px) {
