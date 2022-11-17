@@ -138,14 +138,12 @@ li {
   min-height: 80vh;
   max-height: max-content;
   margin-top: 3%;
-
 }
 
 .upload {
-  /* position: absolute; */
-  /* right: 95px; */
   width: fit-content;
 }
+
 .fa-cloud {
   color: gray;
   font-size: 50px;
@@ -155,6 +153,15 @@ li {
   display: flex;
   justify-content: center;
   margin-top: 10px;
+}
+
+.back {
+  color: #fff;
+  border: 2px solid #1a9258;
+}
+
+.back:hover {
+  color: #fff;
 }
 
 @media (max-width:768px) {
@@ -224,11 +231,11 @@ li {
   }
 }
 
-.uploadDiv{
+.uploadDiv {
   display: flex;
-    justify-content: end;
-    margin-left: 1.5%;
-    margin-top: 1%;
+  justify-content: end;
+  margin-left: 1.5%;
+  margin-top: 1%;
 }
 
 .watch {

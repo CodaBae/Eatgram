@@ -10,7 +10,7 @@ export default function Vegetarians() {
         <div className='container'>
             <Welcome />
             <div className="row typeContent">
-                <h2 className="heading">Vegertarians</h2>
+                <h2 className="heading">Vegetarians</h2>
                 <p className="text">A vegetarian (a.k.a. herbivore) is a person who does not eat any type of meat and eats a plant-based diet instead.</p>
                 <Breakfast />
                 <Lunch />
