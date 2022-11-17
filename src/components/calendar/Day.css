@@ -1,4 +1,10 @@
-.Day-row-container {
+.Day-number {
+  color: #249644;
+  font-weight: bold;
+}
+
+
+/*.Day-row-container {
     display: flex;
     justify-content: space-between;
     gap: 30px;
@@ -32,4 +38,4 @@
     align-items: center;
     padding: 16px;
     white-space: nowrap;
-}
+}*/
