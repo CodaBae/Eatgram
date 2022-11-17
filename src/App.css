@@ -73,7 +73,8 @@ li {
   margin-right: 10px;
 }
 
-.row.typeContent {
+.row.typeContent,
+.watch {
   border: 2.5px solid hwb(137deg 14% 41%);
   background: #16181c;
   padding: 2% 1.5%;
@@ -116,7 +117,8 @@ li {
   color: white;
 }
 
-.btns .btn {
+.btns .btn,
+.upload {
   color: #fff;
   background-color: #249644;
   margin-right: 20px;
@@ -128,10 +130,32 @@ li {
   border: 2px solid #249644;
 }
 
+.watch {
+  min-height: 80vh;
+  max-height: max-content;
+  margin-top: 13%;
 
+}
+
+.upload {
+  position: absolute;
+  right: 95px;
+  width: 20%;
+}
+
+.fa-cloud {
+  color: gray;
+  font-size: 50px;
+}
+
+.cloud {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
 
 @media (max-width:768px) {
- 
+
   .list {
     width: 100%;
   }
@@ -164,10 +188,11 @@ li {
 
 /*Mobile styles added*/
 @media only screen and (max-width: 450px) {
- 
+
   h1.main-heading {
     font-size: 2.5rem;
   }
+
   .about {
     padding: 1% 7%;
     font-size: 1.25rem;
@@ -189,10 +214,25 @@ li {
   }
 
   ul.nav {
-    
+
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
   }
-  
+
+  .upload {
+    right: 0;
+    width: 40%;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .upload {
+    width: 50%;
+  }
+
+  .watch {
+    margin-top: 18%
+  }
 }

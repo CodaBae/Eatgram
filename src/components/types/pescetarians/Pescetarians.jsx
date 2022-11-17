@@ -3,10 +3,12 @@ import Breakfast from './Breakfast'
 import Dinner from './Dinner'
 import Lunch from './Lunch'
 import { Link } from 'react-router-dom';
+import Welcome from '../../Welcome';
 
 export default function Pescetarians() {
     return (
-        <div className='container mt-5'>
+        <div className='container'>
+            <Welcome />
             <div className="row typeContent">
                 <h2 className="heading">Pescetarians</h2>
                 <p className="text">A pescetarian is a person who primarily eats fish and seafood, as well as vegetables and other non-animal meat foods. “Pesce” means “fish” in Italian and “pesca” means “fishing” in Catalan and Spanish.</p>
@@ -14,8 +16,8 @@ export default function Pescetarians() {
                 <Lunch />
                 <Dinner />
                 <div className="btns">
-                    <Link to className="btn">Diet Calender</Link>
-                    <a href='' className="btn">Watch</a>
+                    <Link to='' className="btn">Diet Calender</Link>
+                    <Link to="/watch" className="btn">Watch</Link>
                 </div>
             </div>
         </div>

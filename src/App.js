@@ -5,11 +5,10 @@ import Ominivore from "./components/types/ominivore/Ominivore";
 import Pollotarians from "./components/types/pollotarians/Pollotarians";
 import Vegetarians from "./components/types/vegetarians/Vegetarians";
 import Pescetarians from "./components/types/pescetarians/Pescetarians";
-
-import Welcome from "./components/Welcome";
 import Vegan from "./components/types/vegan/Vegan";
 import Kosher from "./components/types/kosher/Kosher";
 import Halal from "./components/halal/Halal";
+import FileUpload from "./components/FileUpload";
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -22,7 +21,6 @@ function App() {
     <div className="app">
 
       <BrowserRouter>
-        <Welcome />
         <Routes>
           <Route path="/" element={<Ominivore />} />
           <Route path="/carnivore" element={<Carnivore />} />
@@ -32,6 +30,7 @@ function App() {
           <Route path="/vegan" element={<Vegan />} />
           <Route path="/kosher" element={<Kosher />} />
           <Route path="/halal" element={<Halal />} />
+          <Route path="/watch" element={<FileUpload />} />
         </Routes>
       </BrowserRouter>
     </div >

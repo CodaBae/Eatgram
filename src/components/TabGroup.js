@@ -7,12 +7,12 @@ export default function TabGroup() {
         border: "2px solid #249644"
     }
     return (
-        <div className='container-fluid'>
+        <div className='container-fluid mb-5'>
             <div className='row'>
                 <ul className="nav">
                     <li className="nav-item">
                         <NavLink to="/"
-                            className='nav-link one'><i className="fa-solid fa-bear fa-5x"></i> Ominivore</NavLink>
+                            className='nav-link'><i className="fa-solid fa-bear fa-5x"></i> Ominivore</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink to="/carnivore"
