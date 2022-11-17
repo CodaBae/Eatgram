@@ -8,10 +8,13 @@ body {
 
 .container {
   padding-top: 2%;
+  max-width: 95% !important;
 }
 
 .main-heading {
   text-align: center;
+  margin-top: -2.5%;
+
 }
 
 .heading {
@@ -107,8 +110,9 @@ li {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  margin-bottom: -5%;
+  margin-bottom: -4%;
   justify-content: center;
+  margin-top: -1%;
 
 }
 
@@ -133,16 +137,15 @@ li {
 .watch {
   min-height: 80vh;
   max-height: max-content;
-  margin-top: 13%;
+  margin-top: 3%;
 
 }
 
 .upload {
-  position: absolute;
-  right: 95px;
-  width: 20%;
+  /* position: absolute; */
+  /* right: 95px; */
+  width: fit-content;
 }
-
 .fa-cloud {
   color: gray;
   font-size: 50px;
@@ -233,6 +236,24 @@ li {
   }
 
   .watch {
-    margin-top: 18%
+    margin-top: 3%
   }
+}
+
+.uploadDiv{
+  display: flex;
+    justify-content: end;
+    margin-left: 1.5%;
+    margin-top: 1%;
+}
+
+.watch {
+  min-height: 80vh;
+  max-height: max-content;
+  margin-top: 3%;
+  padding: 5%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
 }
