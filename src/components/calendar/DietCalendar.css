@@ -1,20 +1,107 @@
 @import url("https://fonts.googleapis.com/css2?family=Sono:wght@300;400;500;600;700&display=swap");
 
-body {
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+}
+
+.DietCalendar-banner-item {
+  color: #fff;
+  font-weight: bold;
+}
+
+td,th {
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #249644;
+  text-transform: uppercase;
+  font-weight:bolder;
+}
+
+th:first-child{
+  background-color: transparent;
+}
+
+/*tr {
+  border-bottom: 1px solid rgb(110, 109, 109);
+}*/
+
+tr:first {
+  border: 0px;
+}
+
+.DietCalendar-container {
+  width: 90%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  th {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  td {
+    border: none;
+    position: relative;
+    padding-left: 50%;
+    border-bottom: 1px solid rgb(136, 136, 136);
+  }
+
+  td:before {
+    position: absolute;
+    top:92px;
+    left: 15px;
+    width: 45%;
+    padding-right: 10px; 
+		white-space: nowrap;
+    color: #249644;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+  }
+
+  .Day-row-container {
+    position: relative;
+  }
+
+  tr.Day-row-container td.Day-number {
+    position: relative;
+    top: 0px;
+    background-color: #249644;
+    color: #fff;
+  }
+
+  td:nth-of-type(1):before { content: "Breakfast"; }
+	td:nth-of-type(2):before { content: "Lunch"; }
+	td:nth-of-type(3):before { content: "Dinner"; }
+}
+/*body {
   background-color: #000;
   overflow-x: none;
   font-family: "Sono", sans-serif;
   color: #fff;
-}
+}*/
 
-.DietCalendar-container {
+/*.DietCalendar-container {
   padding-top: 2%;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+}*/
 
-.DietCalendar-banner {
+/*.DietCalendar-banner {
   display: flex;
   justify-content: space-between;
   margin-left: 120px;
@@ -24,11 +111,12 @@ body {
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
+}
   margin-top: 3%;
 
-}
+}*/
 
-.DietCalendar-banner-item {
+/*.DietCalendar-banner-item {
   min-width: 120px;
   margin: 0 16px;
-}
+}*/
