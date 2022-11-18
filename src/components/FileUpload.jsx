@@ -25,8 +25,8 @@ export default function FileUpload() {
 
     return (
         <div className="container">
-            <div className="row">
-                <div className="d-flex justify-content-between">
+            <div className="row"> 
+                <div className="d-flex justify-content-between" style={{marginTop:'-2%'}}>
                     <button className='btn back' onClick={() => navigate(-1)}><i className="fa fa-arrow-left" aria-hidden="true"></i> {""} Back to Home</button>
                     <button className='btn upload' onClick={() => widgetRef.current.open()}>Upload Video</button>
                 </div>

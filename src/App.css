@@ -7,13 +7,13 @@ body {
 }
 
 .container {
-  padding-top: 2%;
+  padding-top: 1%;
   max-width: 95% !important;
 }
 
 .main-heading {
   text-align: center;
-  margin-top: -2.5%;
+  margin-top: 1%;
 
 }
 
@@ -156,6 +156,8 @@ li {
 .back {
   color: #fff;
   border: 2px solid #1a9258;
+  width: fit-content !important;
+  margin: 4% 0;
 }
 
 .back:hover {
@@ -269,11 +271,11 @@ li {
 }
 
 .watch {
-  min-height: 80vh;
+  min-height: fit-content;
   max-height: max-content;
-  margin-top: 3%;
-  padding: 2%;
-  
+  margin-top: -2%;
+  padding: 1% 0.5%;
+  height: fit-content;
   display: flex;
   width: 100%;
   display: flex;
@@ -289,3 +291,12 @@ li {
   padding: 1%;}
 
 
+  .upload {
+    width: -moz-fit-content;
+    width: fit-content !important;
+    height: fit-content;
+    margin-top: 4%;
+}
+.watch div {
+  padding: 0.2% 0.6%;
+}

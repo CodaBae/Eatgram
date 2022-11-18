@@ -4,6 +4,8 @@ table {
   width: 100%;
   border-collapse: collapse;
   color: #fff;
+  height: 80vh;
+
 }
 
 .DietCalendar-banner-item {
@@ -60,17 +62,17 @@ tr:first {
 
   td:before {
     position: absolute;
-    top:92px;
+    top: 92px;
     left: 15px;
     width: 45%;
-    padding-right: 10px; 
-		white-space: nowrap;
+    padding-right: 10px;
+    white-space: nowrap;
     color: #249644;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     font-size: 1.25rem;
     text-transform: uppercase;
-  }
+}
 
   .Day-row-container {
     position: relative;
