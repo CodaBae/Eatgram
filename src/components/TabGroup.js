@@ -12,7 +12,7 @@ export default function TabGroup() {
                 <ul className="nav">
                     <li className="nav-item">
                         <NavLink to="/"
-                            className='nav-link'> <i class="fa fa-car"></i> Omnivore</NavLink>
+                            className='nav-link'> <i class="fa-solid fa-meat"></i> Omnivore</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink to="/carnivore"
