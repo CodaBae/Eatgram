@@ -13,7 +13,7 @@ body {
 
 .main-heading {
   text-align: center;
-  margin-top: -2.5%;
+  margin-top: 1%;
 
 }
 
@@ -83,7 +83,6 @@ li {
   padding: 2% 1.5%;
   border-radius: 7px;
   margin-bottom: 5%;
-
 }
 
 .btns {
@@ -157,6 +156,8 @@ li {
 .back {
   color: #fff;
   border: 2px solid #1a9258;
+  width: fit-content !important;
+  margin: 4% 0;
 }
 
 .back:hover {
@@ -178,6 +179,7 @@ li {
     margin-left: 60%;
   }
 }
+
 
 
 /*Mobile styles added*/
@@ -217,8 +219,40 @@ li {
     right: 0;
     width: 40%;
   }
-
+  
+  /*.typeContent .watch .watchvideo div {
+    width: 100% !important;
+  }*/
+  
+  .watch div {
+    width: 100% !important;
+  }
+ 
 }
+
+/*@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+  .watch div {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}*/
+
+@media only screen and (max-width: 760px){
+  .watch div {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .watch div {
+    width: 50% !important;
+    height: 50% !important;
+  }
+}
+
+
+
 
 @media (max-width: 320px) {
   .upload {
@@ -237,12 +271,11 @@ li {
 }
 
 .watch {
-  min-height: 80vh;
+  min-height: fit-content;
   max-height: max-content;
-  margin-top: 3%;
-  padding: 2%;
-  /* justify-content: center; */
-  /* align-items: center; */
+  margin-top: -2%;
+  padding: 1% 0.5%;
+  height: fit-content;
   display: flex;
   width: 100%;
   display: flex;
@@ -252,10 +285,18 @@ li {
 
 
 .watch div {
-  width: 33.3% !important;
-  height: fit-content !important;
+  /*width: 33.3% !important;
+ 
+  height: fit-content !important;*/
   padding: 1%;}
 
-  h1.main-heading.heading {
-    margin-top: 0.2%;
+
+  .upload {
+    width: -moz-fit-content;
+    width: fit-content !important;
+    height: fit-content;
+    margin-top: 4%;
+}
+.watch div {
+  padding: 0.2% 0.6%;
 }
