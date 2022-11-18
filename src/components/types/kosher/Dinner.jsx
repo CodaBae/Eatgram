@@ -11,6 +11,8 @@ export default function Dinner() {
                     <li className="text">Baked Falafel,</li>
                     <li className="text">Honey Braised Chicken with Grapes,</li>
                     <li className="text">Coq Au Vin</li>
+                    <li className="text">Nut-crusted Salmon with Creamy Chrain Sauce</li>
+
                 </ul>
             </div>
         </div>
