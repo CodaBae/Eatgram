@@ -83,7 +83,6 @@ li {
   padding: 2% 1.5%;
   border-radius: 7px;
   margin-bottom: 5%;
-
 }
 
 .btns {
@@ -180,6 +179,7 @@ li {
 }
 
 
+
 /*Mobile styles added*/
 @media only screen and (max-width: 450px) {
 
@@ -217,8 +217,40 @@ li {
     right: 0;
     width: 40%;
   }
-
+  
+  /*.typeContent .watch .watchvideo div {
+    width: 100% !important;
+  }*/
+  
+  .watch div {
+    width: 100% !important;
+  }
+ 
 }
+
+/*@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+  .watch div {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}*/
+
+@media only screen and (max-width: 760px){
+  .watch div {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .watch div {
+    width: 50% !important;
+    height: 50% !important;
+  }
+}
+
+
+
 
 @media (max-width: 320px) {
   .upload {
@@ -241,8 +273,7 @@ li {
   max-height: max-content;
   margin-top: 3%;
   padding: 2%;
-  /* justify-content: center; */
-  /* align-items: center; */
+  
   display: flex;
   width: 100%;
   display: flex;
@@ -252,6 +283,9 @@ li {
 
 
 .watch div {
-  width: 33.3% !important;
-  height: fit-content !important;
+  /*width: 33.3% !important;
+ 
+  height: fit-content !important;*/
   padding: 1%;}
+
+
