@@ -13,7 +13,7 @@ body {
 
 .main-heading {
   text-align: center;
-  margin-top: 1%;
+  margin-top: -1%;
 
 }
 
@@ -114,6 +114,11 @@ li {
   margin-top: -1%;
 
 }
+.logoIMG{
+  width: 15%;
+    margin-top: -7px;
+    margin-left: -1%;
+}
 
 .subheading {
   font-size: 1.5rem;
@@ -184,7 +189,10 @@ li {
 
 /*Mobile styles added*/
 @media only screen and (max-width: 450px) {
-
+  .logoIMG {
+    width: 54% !important;
+    margin-top: 3% !important;
+}
   h1.main-heading {
     font-size: 2.5rem;
   }
