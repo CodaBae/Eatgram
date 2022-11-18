@@ -98,9 +98,9 @@ li {
 .about {
   color: #fff;
   justify-content: center;
-  text-align: center;
+  text-align: left;
   display: flex;
-  padding: 1% 30%;
+  padding: 1% 34% 2%;
 }
 
 .nav {
