@@ -12,36 +12,36 @@ export default function TabGroup() {
                 <ul className="nav">
                     <li className="nav-item">
                         <NavLink to="/"
-                            className='nav-link'> <i class="fa-solid fa-meat"></i> Omnivore</NavLink>
+                            className='nav-link'><i class="fa-solid fa-steak"></i> Omnivore</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink to="/carnivore"
-                            className='nav-link'>  Carnivore</NavLink>
+                            className='nav-link'><i class="fa-solid fa-meat"></i> Carnivore</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink to="/pollotarians"
-                            className='nav-link'>Pollotarian</NavLink>
+                            className='nav-link'><i class="fa-solid fa-turkey"></i> Pollotarian</NavLink>
                     </li>
 
                     <li className="nav-item">
                         <NavLink to="/vegetarians"
-                            className='nav-link'> Vegetarian</NavLink>
+                            className='nav-link'><i class="fa-solid fa-salad"></i> Vegetarian</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink to="/pescetarians"
-                            className='nav-link '> Pescetarian</NavLink>
+                            className='nav-link '><i class="fa-solid fa-fish"></i> Pescetarian</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink to="/vegan"
-                            className='nav-link'> Vegan</NavLink>
+                            className='nav-link'><i class="fa-solid fa-seedling"></i> Vegan</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink to="/kosher"
-                            className='nav-link'> Kosher</NavLink>
+                            className='nav-link'><i class="fa-solid fa-shish-kebab"></i> Kosher</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink to="/halal"
-                            className='nav-link'> Halal</NavLink>
+                            className='nav-link'><i class="fa-solid fa-pot-food"></i> Halal</NavLink>
                     </li>
                 </ul>
             </div>
