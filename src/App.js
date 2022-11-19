@@ -11,11 +11,7 @@ import FileUpload from "./components/FileUpload";
 import DietCalendar from "./components/calendar/DietCalendar";
 
 import './App.css';
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faMeat, faChicken } from '@fortawesome/free-solid-svg-icons'
 
-// library.add(fab, faMeat, faChicken)
 
 function App() {
   return (

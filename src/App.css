@@ -210,9 +210,8 @@ li {
 
   .row.typeContent {
     padding: 6% 4% 6% 4%;
-  }
-
-
+    height: fit-content;
+}
   .btns {
     margin-left: 0;
     width: 100%;
@@ -309,4 +308,10 @@ li {
 }
 .watch div {
   padding: 0.2% 0.6%;
+}
+
+.SBC{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
