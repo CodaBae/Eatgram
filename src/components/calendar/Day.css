@@ -39,3 +39,9 @@
     padding: 16px;
     white-space: nowrap;
 }*/
+
+.Day-number {
+  color: #249644;
+  font-weight: bold;
+  WHITE-SPACE: NOWRAP;
+}

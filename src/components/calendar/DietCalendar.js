@@ -1,6 +1,6 @@
 import DaysList from "./DaysList";
 import "../../App.css";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link} from 'react-router-dom';
 
 import "./DietCalendar.css";
 
@@ -9,7 +9,12 @@ export default function DietCalendar() {
 
   return (
     <div className="DietCalendar-container">
+            <div className="SBC">
             <button className='btn back' onClick={() => navigate(-1)}><i className="fa fa-arrow-left" aria-hidden="true"></i> {""} Back to Home</button>
+            <Link to='/watch'>
+            <button className='btn upload'>Watch</button>
+            </Link>
+            </div>
 
       <table>
         <tr>

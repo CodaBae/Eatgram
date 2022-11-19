@@ -1,13 +1,14 @@
 import React from "react";
 import "./Day.css";
 
-export default function Day(props) {
+export default function Day({dayMeal}) {
+  console.log(dayMeal)
   return (
     <tr class="Day-row-container">
-      <td class="Day-number">DAY {props.day}</td>
-      <td class="Day-meal">High-Fibre Breakfast Cereal</td>
-      <td class="Day-meal">Fresh Summer Chickpea Salad</td>
-      <td class="Day-meal">Barley & Vegetable Soup</td>
+      <td class="Day-number">DAY {dayMeal.day}</td>
+      <td class="Day-meal">{dayMeal.meals[0]}</td>
+      <td class="Day-meal">{dayMeal.meals[1]}</td>
+      <td class="Day-meal">{dayMeal.meals[2]}</td>
     </tr>
   );
 }
